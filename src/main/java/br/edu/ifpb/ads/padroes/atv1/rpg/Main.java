@@ -20,7 +20,7 @@ public class Main {
         System.out.println("=== CRIANDO PERSONAGENS ===");
 
         CriadorPersonagemBase criadorGuerreiro = new CriadorGuerreiro();
-        Personagem humanoGuerreiro = criadorGuerreiro.fabricar("Aragorn", "Humano");
+        Personagem humanoGuerreiro = criadorGuerreiro.fabricar("Dovakin", "Humano");
         System.out.println(humanoGuerreiro);
 
         CriadorPersonagemBase criadorMago = new CriadorMago();
